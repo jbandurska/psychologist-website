@@ -1,0 +1,61 @@
+.photo-header-wrapper
+    overflow: hidden
+
+.photo-header
+    height: 400px
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    display: flex
+    align-items: center
+    justify-content: center
+    border-bottom-left-radius: 50%
+    border-bottom-right-radius: 50%
+    margin: 0 -20%
+
+    .title-wrapper
+        width: 57.5%
+        height: 30%
+        display: flex
+        flex-flow: column wrap
+        align-items: flex-start
+        justify-content: flex-end
+        color: white
+
+    h1
+        margin: 0
+        font-size: 2.6rem
+        text-shadow: 0px 0px 10px rgba(0,0,0,0.3)
+
+    h2
+        font-weight: normal
+        margin-top: 0
+
+    @media (max-width: 1050px)
+        height: 350px
+
+        h1
+            font-size: 2.4rem
+
+        h2
+            font-size: 1.1rem
+
+    @media (max-width: 720px)
+        height: 300px
+
+        h1
+            font-size: 2rem
+
+        h2
+            font-size: 1rem
+
+    @media (max-width: 500px)
+        background-attachment: local
+        height: 250px
+
+        h1
+            font-size: 1.7rem
+
+        h2
+            font-size: .9rem

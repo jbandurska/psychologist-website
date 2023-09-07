@@ -1,0 +1,67 @@
+.contact-page .contact {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 50px;
+  color: #333;
+}
+.contact-page .contact .text {
+  text-align: center;
+}
+.contact-page .contact ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0;
+}
+.contact-page .contact ul li {
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7294117647);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.contact-page .contact ul li:last-child {
+  padding: 30px;
+}
+.contact-page .contact ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7294117647);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+.contact-page .contact ul li span {
+  transition: 0.2s linear;
+  font-size: 0.95rem;
+  padding: 2px 0;
+}
+.contact-page .contact ul li .type {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.contact-page .contact ul li svg {
+  color: #3EB489;
+  font-size: 3.5rem;
+  transition: 0.2s linear;
+  margin-bottom: 15px;
+}
+.contact-page .contact ul li:nth-child(2) {
+  transition-delay: 200ms !important;
+}
+.contact-page .contact ul li:nth-child(3) {
+  transition-delay: 400ms !important;
+}
+.contact-page .map {
+  margin-bottom: 70px;
+}/*# sourceMappingURL=Contact.css.map */

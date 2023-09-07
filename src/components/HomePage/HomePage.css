@@ -1,0 +1,18 @@
+.paragraph {
+  padding: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: justify;
+  color: #444;
+}
+@media (max-width: 720px) {
+  .paragraph {
+    padding: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .paragraph {
+    padding: 50px;
+  }
+}/*# sourceMappingURL=HomePage.css.map */

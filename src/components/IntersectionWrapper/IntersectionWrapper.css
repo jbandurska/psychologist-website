@@ -1,0 +1,17 @@
+.hidden {
+  transform: translateX(-100%) !important;
+  opacity: 0 !important;
+  filter: blur(5px) !important;
+  transition: all 1.5s !important;
+}
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none !important;
+  }
+}
+
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}/*# sourceMappingURL=IntersectionWrapper.css.map */

@@ -1,0 +1,16 @@
+.page-not-found {
+  color: #3EB489;
+  font-size: 2rem;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.page-not-found .error-message {
+  font-weight: bold;
+}
+.page-not-found span {
+  width: 50%;
+  margin: 5px;
+}/*# sourceMappingURL=PageNotFound.css.map */

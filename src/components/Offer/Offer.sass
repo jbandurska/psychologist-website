@@ -1,0 +1,33 @@
+@import "../../variables"
+
+.offer-page
+    .offer
+        max-width: 1100px
+        margin: 0 auto
+        padding: 80px
+
+        ul
+            color: #444
+            list-style-type: none
+
+            li
+                padding: 4px
+
+            li::before
+                content: '✔'
+                margin-right: 10px
+                color: $base-color
+
+        ul.main-ul
+            li::before
+                content: '➡'
+
+        @media (max-width: 720px)
+            ul
+                padding-left: 20px
+
+        @media (max-width: 500px)
+            padding: 50px
+
+            ul
+                padding-left: 0

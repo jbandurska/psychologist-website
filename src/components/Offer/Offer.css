@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.offer-page .offer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px;
+}
+.offer-page .offer ul {
+  color: #444;
+  list-style-type: none;
+}
+.offer-page .offer ul li {
+  padding: 4px;
+}
+.offer-page .offer ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #3EB489;
+}
+.offer-page .offer ul.main-ul li::before {
+  content: "➡";
+}
+@media (max-width: 720px) {
+  .offer-page .offer ul {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .offer-page .offer {
+    padding: 50px;
+  }
+  .offer-page .offer ul {
+    padding-left: 0;
+  }
+}/*# sourceMappingURL=Offer.css.map */
